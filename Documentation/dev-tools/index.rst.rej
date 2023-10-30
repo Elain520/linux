@@ -1,9 +1,0 @@
-diff a/Documentation/dev-tools/index.rst b/Documentation/dev-tools/index.rst	(rejected hunks)
-@@ -27,6 +27,7 @@ whole; patches welcome!
-    kgdb
-    kselftest
-    kunit/index
-+   pgo
- 
- 
- .. only::  subproject and html
