@@ -1131,6 +1131,7 @@
 		CONSTRUCTORS						\
 	}								\
 	BUG_TABLE							\
+	PGO_CLANG_DATA
 
 #define INIT_TEXT_SECTION(inittext_align)				\
 	. = ALIGN(inittext_align);					\
