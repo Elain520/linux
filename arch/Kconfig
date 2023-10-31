@@ -1112,6 +1112,7 @@ config ARCH_SPLIT_ARG64
 	   pairs of 32-bit arguments, select this option.
 
 source "kernel/gcov/Kconfig"
+source "kernel/pgo/Kconfig"
 
 source "scripts/gcc-plugins/Kconfig"
 

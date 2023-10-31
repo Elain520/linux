@@ -4,6 +4,10 @@
 
 OBJECT_FILES_NON_STANDARD := y
 
+# Disable PGO for curve25519-x86_64. With PGO enabled, clang runs out of
+# registers for some of the functions.
+PGO_PROFILE_curve25519-x86_64.o := n
+
 obj-$(CONFIG_CRYPTO_GLUE_HELPER_X86) += glue_helper.o
 
 obj-$(CONFIG_CRYPTO_TWOFISH_586) += twofish-i586.o
